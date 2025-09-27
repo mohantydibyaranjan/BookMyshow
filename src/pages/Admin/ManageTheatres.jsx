@@ -106,11 +106,6 @@ const ManageTheatres = () => {
                     <Tooltip title="Edit">
                       <IconButton onClick={() => handleOpenPopup(theatre)}><EditIcon /></IconButton>
                     </Tooltip>
-                    <Tooltip title="Configure Seats (Coming Soon)">
-                      <IconButton disabled> {/* Placeholder for future functionality */}
-                          <i className="fas fa-couch"></i>
-                      </IconButton>
-                    </Tooltip>
                     <Tooltip title="Delete">
                       <IconButton onClick={() => handleDelete(theatre.id)} color="error"><DeleteIcon /></IconButton>
                     </Tooltip>
