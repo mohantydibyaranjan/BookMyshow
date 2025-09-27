@@ -148,7 +148,8 @@ const ManageMovies = () => {
         >
           {({ isSubmitting, setFieldValue }) => (
             <Form>
-              <Grid container spacing={2} sx={{ mt: 1, p: 2 }}>
+              <Box sx={{p: 2}}>
+              <Grid container spacing={2} sx={{ mt: 1 }}>
                 <Grid item xs={12}>
                   <FormInput name="title" label="Title" />
                 </Grid>
@@ -177,6 +178,7 @@ const ManageMovies = () => {
                   </Button>
                 </Grid>
               </Grid>
+              </Box>
             </Form>
           )}
         </Formik>
